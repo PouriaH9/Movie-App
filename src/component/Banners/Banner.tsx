@@ -1,8 +1,8 @@
 const Banner = () => {
   return (
-    <div className="w-[100%] h-[300px] mx-auto  bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-amber-200 via-violet-600 to-sky-900">
+    <div className="w-[100%] rounded-b-3xl h-[300px] mx-auto  bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-amber-200 via-violet-600 to-violet-800">
       <div className="p-2">
-        <h2 className="text-4xl m-3 text-white font-bold font-sans">Welcome.</h2>
+        <h2 className="text-[100px] m-3 text-white font-bold font-sans">Welcome.</h2>
         <h3 className="text-white mt-3 font-sans">
           Millions of movies, TV shows and people to discover!
         </h3>

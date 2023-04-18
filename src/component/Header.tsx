@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="w-full h-[5rem] bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black">
-      <nav className="w-[80%] flex items-center justify-between p-[1rem] mx-auto  ">
+    <header className="w-full mx-auto h-[5rem] bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-violet-700 via-violet-900 to-black">
+      <nav className="w-[80%] h-full flex items-center justify-between mx-auto  ">
         <Link to="/">
           <img
-            className="my-2 w-[15%]"
-            src="https://i.ibb.co/zGjyxBF/Logo.png"
+            className="my-2 w-[40px]"
+            src="https://i.ibb.co/NLHcV5L/favicon.png"
             alt="logo"
           />
         </Link>
