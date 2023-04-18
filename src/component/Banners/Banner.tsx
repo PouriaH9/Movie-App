@@ -8,7 +8,7 @@ const Banner = () => {
         </h3>
       </div>
       <div className="mt-5 flex items-center">
-        <div className="flex space-x-1 mx-auto">
+        {/* <div className="flex space-x-1 mx-auto">
           <input
             type="text"
             className="block w-[400px] px-4 py-2 text-purple-700 bg-white border rounded-full focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
@@ -30,7 +30,7 @@ const Banner = () => {
               />
             </svg>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
