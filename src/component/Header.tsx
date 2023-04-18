@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="w-full mx-auto h-[5rem] bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-violet-700 via-violet-900 to-black">
+    <header className="fixed top-0 z-20 w-full mx-auto h-[5rem] bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-violet-700 via-violet-900 to-black">
       <nav className="w-[80%] h-full flex items-center justify-between mx-auto  ">
         <Link to="/">
           <img
